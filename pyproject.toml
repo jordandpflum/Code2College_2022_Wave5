@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "Code2College_2022_Wave5"
+version = "0.1.0"
+description = "Code2College 2022 Wave 5"
+authors = ["Jordan Pflum"]
+license = "Apache-2.0"
+readme = "README.md"
+classifiers = [
+  "Programming Language :: Python :; 3",
+  "License :: Apache License",
+  "Operating System :: OS Independent",
+]
+packages = []
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tornado = "^6.2"
+Jinja2 = "^3.1.2"
+docutils = "^0.19"
+HTMLParser = "^0.0.2"
+numpy = "^1.23.2"
+keyring = "^23.9.1"
+ipywidgets = "^8.0.2"
+attr = "^0.3.2"
+lockfile = "^0.12.2"
+railroad = "^0.5.0"
+Sphinx = "^5.1.1"
+cryptography = "^38.0.1"
+python-ntlm = "^1.1.0"
+Cython = "^0.29.32"
+ipython = "^8.5.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.8.0"
+pylint = "^2.15.2"
+pre-commit = "^2.20.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
